@@ -1,4 +1,4 @@
-# crontabComment
+# crontabAdd
 Adds an entry into crontab
 
 ## Install utility via curl
