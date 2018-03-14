@@ -7,7 +7,7 @@ if [ $# -lt 1 ]
 then
         echo -e "${COLOR}No arguments passed."
         echo -e "${COLOR}Adds an entry into crontab"
-         echo -e "${COLOR}Execution : crontabAdd \"* * * * * echo input2\" ${reset}"
+        echo -e "${COLOR}Execution : crontabAdd \"* * * * * echo input2\" ${reset}"
         exit
 fi
 read -p "Please enter appropriate cron comment: " userInput
